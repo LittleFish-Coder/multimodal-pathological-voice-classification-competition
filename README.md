@@ -12,7 +12,6 @@
 
 ## 2. 資料前處理
 
-! Remember to unzip the Training Dataset.zip before running any code
 於 eda.ipynb 中，我們將資料集進行探索式資料分析(Exploratory Data Analysis)，並將資料集視覺化，以利後續模型訓練以及特徵選取。
 
 ## 3. 模型訓練(分類)
@@ -23,7 +22,7 @@
   Scikit-learn - SVC
 
 - DL:
-  Pytorch - FCN
+  Pytorch - FCNN
 
 ## 4. 模型預測
 
@@ -34,14 +33,28 @@
   - LogisticRegression: 0.63
   - RandomForestClassifier: 0.65
   - SVC: 0.63
-  - FCN: 0.64
+  - FCNN: 0.64
 
 - feature data put into training(Accuracy):
 
   - LogisticRegression: 0.64
   - RandomForestClassifier: 0.64
   - SVC: 0.65
-  - FCN: 0.64
+  - FCNN: 0.64
+
+- full data with label splitted evenly put into training(Accuracy):
+
+  - LogisticRegression: 0.64
+  - RandomForestClassifier: 0.67
+  - SVC: 0.63
+  - FCNN: 0.64
+
+- feature data with label splitted evenly put into training(Accuracy):
+
+  - LogisticRegression: 0.66
+  - RandomForestClassifier: 0.64
+  - SVC: 0.68
+  - FCNN: 0.64
 
 - feature data: 由原始資料分離出的特徵資料
   ```
