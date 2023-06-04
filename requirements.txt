@@ -1,0 +1,9 @@
+scikit-learn
+pandas
+matplotlib
+numpy
+ipykernel
+torch torchvision
+torchsudio
+sounddevice
+python-graphviz
